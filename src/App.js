@@ -241,13 +241,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header" >
-        <img src={logo} alt="logo" style={{alignSelf: 'stretch'}}/>
+        <img src={logo} alt="" style={{alignSelf: 'stretch'}}/>
       </header>
       <p/>
 
-      <img src={card} alt="..." style={{height: '80vh', flex: 1,width: null}}/>
+      <img src={card} alt="" style={{width: '90%'}}/>
       <h2>Як долучитись до проєкту</h2>
-      <img src={guide} alt="..." style={{height: '80vh', flex: 1,width: null}}/>
+      <img src={guide} alt="" style={{width: '90%'}}/>
   
       <div className="grid place-items-center h-screen bg-zinc-300 p-5 text-[#454545]">
         <h2>Нові запити</h2>
