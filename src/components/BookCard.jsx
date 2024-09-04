@@ -5,7 +5,7 @@ const BookCard = ({ data }) => {
       return (
         <button disabled={true} style={{width:250, height:350}}>
           <img src={book_img_url} height="220vh" alt=""/>
-          <p>{data.title}</p>
+          <p style={{color: "black"}}>{data.title}</p>
           <p>ВИКОНАНО</p>
         </button>
         );
