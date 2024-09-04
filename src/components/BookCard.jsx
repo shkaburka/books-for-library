@@ -10,6 +10,15 @@ const BookCard = ({ data }) => {
         </button>
         );
       }
+  else if (data.price === "R"){
+    return (
+      <button disabled={true} style={{width:250, height:350}}>
+        <img src={book_img_url} height="220vh" alt=""/>
+        <p style={{color: "black"}}>{data.title}</p>
+        <p>ЗАБРОНЬОВАНО</p>
+      </button>
+      );
+    }
   else{
     return (
       <button onClick={() => {window.open("https://send.monobank.ua/jar/8zWoDt5t2Q", "_blank", "noreferrer");}} 

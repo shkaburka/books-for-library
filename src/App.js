@@ -57,12 +57,12 @@ const ReservedBooks = [
   {
     title: "Любов сама",
     image_url: "https://readeat.com/storage/app/uploads/public/64d/cd4/3dc/thumb_19779_900_900_0_0_auto.jpeg",
-    price: "UAH 180",
+    price: "R",
   },
   {
     title: "В очікуванні першого променя сонця",
     image_url: "https://static.yakaboo.ua/media/catalog/product/d/a/dall_cover_ua_4.jpg",
-    price: "UAH 320",
+    price: "R",
   },
   
 ];
@@ -253,7 +253,7 @@ function App() {
       </div>
       <div className="grid place-items-center h-screen bg-zinc-300 p-5 text-[#454545]">
         <h2>Заброньовані книги</h2>
-        <p>Наразі тут пусто</p>
+        {/* <p>Наразі тут пусто</p> */}
         <ul className="w-auto">
           {ReservedBooks.map((data, index) => {return (<BookCard key={index} data={data} />); })}
         </ul>
