@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/books-for-library/static/css/main.b2f0b2ee.css",
+    "main.js": "/books-for-library/static/js/main.f3d15279.js",
+    "static/js/453.63e6a66c.chunk.js": "/books-for-library/static/js/453.63e6a66c.chunk.js",
+    "static/media/logo.jpg": "/books-for-library/static/media/logo.da884b87b3d0cac11344.jpg",
+    "index.html": "/books-for-library/index.html",
+    "main.b2f0b2ee.css.map": "/books-for-library/static/css/main.b2f0b2ee.css.map",
+    "main.f3d15279.js.map": "/books-for-library/static/js/main.f3d15279.js.map",
+    "453.63e6a66c.chunk.js.map": "/books-for-library/static/js/453.63e6a66c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2f0b2ee.css",
+    "static/js/main.f3d15279.js"
+  ]
+}
