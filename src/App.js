@@ -245,9 +245,9 @@ function App() {
       </header>
       <p/>
 
-      <img src={card} alt="..." height="500" />
+      <img src={card} alt="..." style={{height: '80vh', flex: 1,width: null}}/>
       <h2>Як долучитись до проєкту</h2>
-      <img src={guide} alt="..." height="600" />
+      <img src={guide} alt="..." style={{height: '80vh', flex: 1,width: null}}/>
   
       <div className="grid place-items-center h-screen bg-zinc-300 p-5 text-[#454545]">
         <h2>Нові запити</h2>
@@ -259,7 +259,7 @@ function App() {
         <h2>Заброньовані книги</h2>
         <p>Наразі тут пусто</p>
         <ul className="w-auto">
-          {/* {ReservedBooks.map((data, index) => {return (<BookCard key={index} data={data} />); })} */}
+          {ReservedBooks.map((data, index) => {return (<BookCard key={index} data={data} />); })}
         </ul>
       </div>
       <div className="grid place-items-center h-screen bg-zinc-300 p-5 text-[#454545]">
