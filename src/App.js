@@ -245,6 +245,7 @@ function App() {
       </header>
       <p/>
 
+      <h2>Давайте знайомитись</h2>
       <img src={card} alt="" style={{width: '90%'}}/>
       <h2>Як долучитись до проєкту</h2>
       <img src={guide} alt="" style={{width: '90%'}}/>
