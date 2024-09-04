@@ -33,12 +33,12 @@ const NewBooks = [
   {
     title: "Крамниця на вулиці Роял",
     image_url: "https://static.yakaboo.ua/media/catalog/product/1/0/1008_1_1.jpg",
-    price: "UAH 350",
+    price: "R",
   },
   {
     title: "Будинок на вулиці Пританія",
     image_url: "https://static.yakaboo.ua/media/catalog/product/i/m/img026_11.jpg",
-    price: "UAH 350",
+    price: "R",
   },
   {
     title: "Серед вовків",
@@ -50,10 +50,6 @@ const NewBooks = [
     image_url: "https://static.yakaboo.ua/media/catalog/product/3/8/38d03d408d3064f45851994e455943ad.jpg",
     price: "UAH 280",
   },
-  
-];
-
-const ReservedBooks = [
   {
     title: "Любов сама",
     image_url: "https://readeat.com/storage/app/uploads/public/64d/cd4/3dc/thumb_19779_900_900_0_0_auto.jpeg",
@@ -249,13 +245,6 @@ function App() {
         <h2>Нові запити</h2>
         <ul className="w-auto">
           {NewBooks.map((data, index) => { return (<BookCard key={index} data={data} />); })}
-        </ul>
-      </div>
-      <div className="grid place-items-center h-screen bg-zinc-300 p-5 text-[#454545]">
-        <h2>Заброньовані книги</h2>
-        {/* <p>Наразі тут пусто</p> */}
-        <ul className="w-auto">
-          {ReservedBooks.map((data, index) => {return (<BookCard key={index} data={data} />); })}
         </ul>
       </div>
       <div className="grid place-items-center h-screen bg-zinc-300 p-5 text-[#454545]">

@@ -15,7 +15,8 @@ const BookCard = ({ data }) => {
       <button disabled={true} style={{width:250, height:350}}>
         <img src={book_img_url} height="220vh" alt=""/>
         <p style={{color: "black"}}>{data.title}</p>
-        <p>ЗАБРОНЬОВАНО</p>
+        <p>Заброньовано</p>
+        <button disabled={true}/>
       </button>
       );
     }
@@ -27,7 +28,7 @@ const BookCard = ({ data }) => {
         <p style={{color: "black"}}>{data.title}</p>
         <p style={{color: "black"}}>{data.price}</p>
         <button style={{backgroundColor: 'DarkSeaGreen', borderStyle: "hidden", color: "darkslategrey", cursor: "pointer"}}>
-          ЗАБРОНЮВАТИ І ОПЛАТИТИ
+          Забронювати І Оплатити
           </button>
       </button>
       );
