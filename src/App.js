@@ -6,11 +6,6 @@ import BookCard from "./components/BookCard";
 
 const NewBooks = [
   {
-    title: "Любов сама",
-    image_url: "https://readeat.com/storage/app/uploads/public/64d/cd4/3dc/thumb_19779_900_900_0_0_auto.jpeg",
-    price: "UAH 180",
-  },
-  {
     title: "Чорне біле",
     image_url: "https://readeat.com/storage/app/uploads/public/66c/4bd/29f/thumb_98397_380_600_0_0_auto.jpg",
     price: "UAH 380",
@@ -24,11 +19,6 @@ const NewBooks = [
     title: "Шах і мат",
     image_url: "https://static.yakaboo.ua/media/catalog/product/1/e/1e49fa1e_shahmat_obl3_cr.jpg",
     price: "UAH 324",
-  },
-  {
-    title: "В очікуванні першого променя сонця",
-    image_url: "https://static.yakaboo.ua/media/catalog/product/d/a/dall_cover_ua_4.jpg",
-    price: "UAH 320",
   },
   {
     title: "Ідеальна пара",
@@ -46,7 +36,7 @@ const NewBooks = [
     price: "UAH 350",
   },
   {
-    title: "ЗБудинок на вулиці Пританія",
+    title: "Будинок на вулиці Пританія",
     image_url: "https://static.yakaboo.ua/media/catalog/product/i/m/img026_11.jpg",
     price: "UAH 350",
   },
@@ -64,11 +54,16 @@ const NewBooks = [
 ];
 
 const ReservedBooks = [
-  // {
-  //   title: "З жінками по-доброму не можна",
-  //   image_url: "https://readeat.com/storage/app/uploads/public/64d/cda/801/thumb_19800_380_600_0_0_auto.jpeg",
-  //   price: "UAH 210",
-  // },
+  {
+    title: "Любов сама",
+    image_url: "https://readeat.com/storage/app/uploads/public/64d/cd4/3dc/thumb_19779_900_900_0_0_auto.jpeg",
+    price: "UAH 180",
+  },
+  {
+    title: "В очікуванні першого променя сонця",
+    image_url: "https://static.yakaboo.ua/media/catalog/product/d/a/dall_cover_ua_4.jpg",
+    price: "UAH 320",
+  },
   
 ];
 const PurchasedBooks = [
