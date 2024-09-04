@@ -19,15 +19,12 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(255, 255, 255);
+  text-decoration: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+  color: rgb(159, 46, 4);
 }

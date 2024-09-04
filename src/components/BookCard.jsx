@@ -1,30 +1,28 @@
-const mono_url = "https://send.monobank.ua/jar/8zWoDt5t2Q"
+const BookCard = ({ data }) => {
+  var book_img_url = data.image_url
 
-function BookCard(book_name="", image_url="", descr="", purchased=false){
-  
-  if (purchased){
-    return (
-      <button disabled={true}>
-        <img src={image_url} height={300} alt=""/>
-        <p>{book_name}</p>
-        <div>ВИКОНАНО</div>
-      </button>
-      );
-  }
+  if (data.price === ""){
+      return (
+        <button disabled={true} style={{width:250, height:350}}>
+          <img src={book_img_url} height="220vh" alt=""/>
+          <p>{data.title}</p>
+          <p>ВИКОНАНО</p>
+        </button>
+        );
+      }
   else{
     return (
-      <button onClick={button_clicked} style={{backgroundColor: 'DarkSeaGreen', cursor: "pointer"}}>
-        <img src={image_url} height={300} alt=""/>
-        <p>{book_name}</p>
-        <p>{descr}</p>
-        <a href={mono_url}>ЗАБРОНЮВАТИ І ОПЛАТИТИ</a>
+      <button onClick={() => {window.open("https://send.monobank.ua/jar/8zWoDt5t2Q", "_blank", "noreferrer");}} 
+              style={{width:250, height:350, cursor: "pointer"}}>
+        <img src={book_img_url} height="220vh" alt=""/>
+        <p style={{color: "black"}}>{data.title}</p>
+        <p style={{color: "black"}}>{data.price}</p>
+        <button style={{backgroundColor: 'DarkSeaGreen', borderStyle: "hidden", color: "darkslategrey", cursor: "pointer"}}>
+          ЗАБРОНЮВАТИ І ОПЛАТИТИ
+          </button>
       </button>
       );
   }
-}
-
-function button_clicked(){
-  window.open(mono_url , "_blank", "noreferrer");
 }
 
 export default BookCard;
