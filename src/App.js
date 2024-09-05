@@ -8,7 +8,7 @@ const NewBooks = [
   {
     title: "Чорне біле",
     image_url: "https://readeat.com/storage/app/uploads/public/66c/4bd/29f/thumb_98397_380_600_0_0_auto.jpg",
-    price: "UAH 380",
+    price: "R",
   },
   {
     title: "З жінками по-доброму не можна",
