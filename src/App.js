@@ -8,14 +8,13 @@ import NewBooks from './data/BooksData.json';
 import PurchasedBooks from './data/ArchivedBooksData.json';
 
 function App() {
-
   return (
     <div>
       <header className="App-header" >
         <img src={logo} alt="" style={{alignSelf: 'stretch', maxHeight: '80vh'}}/>
       </header>
 
-      <ul className="container">
+      <ul className='container'>
         <img src={card} alt="" width="30%"/>
         <div style={{border: "solid 15px transparent"}}>
           <h1> Давайте знайомитись</h1>
@@ -31,7 +30,7 @@ function App() {
         </div>
       </ul>
     
-      <ul className="container"  style={{backgroundColor:'DarkSeaGreen', color:'black'}}>
+      <ul className='container' style={{backgroundColor:'DarkSeaGreen', color:'black'}}>
         <div style={{border: "solid 15px transparent"}}>
           <h2>Про бібліотеку</h2>
           <h3 style={{color:"white"}}>Публічна бібліотека імені Лесі Українки</h3>
@@ -45,32 +44,32 @@ function App() {
         <img src={map} alt="" width="30%"/>
       </ul>
 
-      <ul className="container">
+      <ul className='container'>
         <img src={guide} alt="" width="50%"/>
         <div style={{border: "solid 15px transparent"}}>
           <h1> Як долучитись до проєкту</h1>
-          <h3 style={{color:"darkorange"}}>Мене звуть Ліля і це мій проєкт з лагідної українізації</h3>
-          <p>Мова йде про ініціативу з наповнення мережі бібліотек імені Лесі Українки новими книжками. </p>
-          <p>Бібліотекарки надсилають мені запити на літературу, яку просили читачі і не знайшли, а у вас є можливість придбати цю книжку для них! </p>
+          <h3 style={{color:"darkorange"}}>Скористатись оплатою на сайті або віднести книгу самостійно</h3>
+          <p>Обирайте книгу, тисніть замовити і сплачуйте її вартість. Протягом доби кошти будуть зараховані і книга перейде в статус ЗАБРОНЬОВАНО. У випадку, якщо кілька людей встигне забронювати одну книгу, кошти буде витрачено на інші книжечки з списку. Раз на тиждень я купую книги та передаю бібліотеці. </p>
           <p/>
-          <p>Може ви спитаєте для чого взагалі ще існують бібліотеки? </p>
-          <p>В бібліотеки ходить багато вимушено переселених людей, та тих хто не може тримати велику книжкову полицю вдома, часто ходять з дітками, адже дитячі книжки маленькі і швидко набридають. </p>
-          <p>Дуже хочеться щоб більше людей мало доступ до якісної літератури українською, хочеться бачити на полицях красиві сучасні книги. </p>
-          <p>Разом ми можемо це зробити.</p>
+          <p>Ви також можете придбати та віднести книгу самостійно, тоді бібліотекарі повідомлять, що вона вже не потрібна.</p>
           <p/>
         </div>
       </ul>
-      <ul className="container"  style={{backgroundColor:'white', color:'black'}}>
-        <h2>Нові запити</h2>
-        <ul className="w-auto">
-          {NewBooks.map((data, index) => { return (<BookCard key={index} data={data} />); })}
-        </ul>
-      </ul>
+
       <ul className="container"  style={{backgroundColor:'DarkSeaGreen', color:'black'}}>
-        <ul className="w-auto">
-          {PurchasedBooks.map((data, index) => { return (<BookCard key={index} data={data} />); })}
-        </ul>
+        <h2>Нові запити</h2>
+      </ul>
+      
+      <ul className="w-auto">
+        {NewBooks.map((data, index) => { return (<BookCard key={index} data={data} />); })}
+      </ul>
+      
+      <ul className="container"  style={{backgroundColor:'darkgrey', color:'white'}}>
         <h2>Передано бібліотеці</h2>
+      </ul>
+      
+      <ul className="w-auto">
+        {PurchasedBooks.map((data, index) => { return (<BookCard key={index} data={data} />); })}
       </ul>
     </div>
   );
