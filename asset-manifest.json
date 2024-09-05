@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/books-for-library/static/css/main.22c49b49.css",
-    "main.js": "/books-for-library/static/js/main.f6b394d8.js",
+    "main.css": "/books-for-library/static/css/main.038b0808.css",
+    "main.js": "/books-for-library/static/js/main.e7f26561.js",
     "static/js/453.63e6a66c.chunk.js": "/books-for-library/static/js/453.63e6a66c.chunk.js",
-    "static/media/card.png": "/books-for-library/static/media/card.61dc6b2c22c031599e8b.png",
-    "static/media/Map.png": "/books-for-library/static/media/Map.bd76cc32d3a0e1ae34f6.png",
+    "static/media/card.png": "/books-for-library/static/media/card.edc94af8c269dd2a0f5a.png",
     "static/media/logo.PNG": "/books-for-library/static/media/logo.2da35d06a451a409cdc3.PNG",
     "static/media/guide.png": "/books-for-library/static/media/guide.11cfb6d0aa759b06fe43.png",
+    "static/media/map.png": "/books-for-library/static/media/map.24d011ac61e524501750.png",
     "index.html": "/books-for-library/index.html",
-    "main.22c49b49.css.map": "/books-for-library/static/css/main.22c49b49.css.map",
-    "main.f6b394d8.js.map": "/books-for-library/static/js/main.f6b394d8.js.map",
+    "main.038b0808.css.map": "/books-for-library/static/css/main.038b0808.css.map",
+    "main.e7f26561.js.map": "/books-for-library/static/js/main.e7f26561.js.map",
     "453.63e6a66c.chunk.js.map": "/books-for-library/static/js/453.63e6a66c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22c49b49.css",
-    "static/js/main.f6b394d8.js"
+    "static/css/main.038b0808.css",
+    "static/js/main.e7f26561.js"
   ]
 }
