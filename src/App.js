@@ -18,7 +18,7 @@ const NewBooks = [
   {
     title: "Шах і мат",
     image_url: "https://static.yakaboo.ua/media/catalog/product/1/e/1e49fa1e_shahmat_obl3_cr.jpg",
-    price: "UAH 324",
+    price: "R",
   },
   {
     title: "Ідеальна пара",
