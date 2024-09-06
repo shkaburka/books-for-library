@@ -1,7 +1,7 @@
 import logo from './logo.PNG';
 import card from './card.png';
 import guide from './guide.png';
-import map from './map.png';
+import map from './lib_map.png';
 import './App.css';
 import BookCard from "./components/BookCard";
 import NewBooks from './data/BooksData.json';
