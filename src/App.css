@@ -29,6 +29,25 @@ a:hover {
   color: rgb(159, 46, 4);
 }
 
+
 .container {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Optional: space between boxes */
+}
+
+.box {
+  flex: 1;
+  min-width: 200px; /* Adjust as needed */
+  padding: 20px;
+  text-align: center;
+  border: 1px transparent white;
+  width: 90%; /* 50% of the parent container's width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
 }
