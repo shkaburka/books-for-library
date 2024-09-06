@@ -39,9 +39,9 @@ a:hover {
 .box {
   flex: 1;
   min-width: 200px; /* Adjust as needed */
-  padding: 20px;
+  /* padding: 20px; */
   text-align: center;
-  border: 1px transparent white;
+  border: 2px transparent white;
   width: 90%; /* 50% of the parent container's width */
   height: auto; /* Maintain aspect ratio */
 }
