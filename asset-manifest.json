@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/books-for-library/static/css/main.a7ea08a4.css",
+    "main.css": "/books-for-library/static/css/main.bb796d41.css",
     "main.js": "/books-for-library/static/js/main.bb8e681a.js",
     "static/js/453.63e6a66c.chunk.js": "/books-for-library/static/js/453.63e6a66c.chunk.js",
     "static/media/card.png": "/books-for-library/static/media/card.59122b090007033d3e52.png",
@@ -8,12 +8,12 @@
     "static/media/guide.png": "/books-for-library/static/media/guide.11cfb6d0aa759b06fe43.png",
     "static/media/lib_map.png": "/books-for-library/static/media/lib_map.24d011ac61e524501750.png",
     "index.html": "/books-for-library/index.html",
-    "main.a7ea08a4.css.map": "/books-for-library/static/css/main.a7ea08a4.css.map",
+    "main.bb796d41.css.map": "/books-for-library/static/css/main.bb796d41.css.map",
     "main.bb8e681a.js.map": "/books-for-library/static/js/main.bb8e681a.js.map",
     "453.63e6a66c.chunk.js.map": "/books-for-library/static/js/453.63e6a66c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7ea08a4.css",
+    "static/css/main.bb796d41.css",
     "static/js/main.bb8e681a.js"
   ]
 }
