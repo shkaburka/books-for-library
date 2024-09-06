@@ -6,7 +6,7 @@ const BookCard = ({ data }) => {
         <button disabled={true} style={{width:250, height:350}}>
           <img src={book_img_url} height="220vh" alt=""/>
           <p style={{color: "black"}}>{data.title}</p>
-          <p>ВИКОНАНО</p>
+          <p style={{color: "darkgrey"}} >Передано бібліотеці</p>
         </button>
         );
       }
@@ -15,8 +15,7 @@ const BookCard = ({ data }) => {
       <button disabled={true} style={{width:250, height:350}}>
         <img src={book_img_url} height="220vh" alt=""/>
         <p style={{color: "black"}}>{data.title}</p>
-        <p>Заброньовано</p>
-        <button disabled={true}/>
+        <p style={{color: "darkorange"}}>Сплачено і очікується</p>
       </button>
       );
     }

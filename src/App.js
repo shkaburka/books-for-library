@@ -5,9 +5,13 @@ import map from './lib_map.png';
 import './App.css';
 import BookCard from "./components/BookCard";
 import NewBooks from './data/BooksData.json';
-import PurchasedBooks from './data/ArchivedBooksData.json';
 
 function App() {
+  const sortedNewBooks = NewBooks.sort((a, b) => {
+    if (a.price > b.price) return -1;
+    if (a.price <= b.price) return 1;
+    return 0;
+  });
   return (
     <div>
       <header className="App-header" >
@@ -36,10 +40,10 @@ function App() {
           <h3 style={{color:"white"}}>Публічна бібліотека імені Лесі Українки</h3>
           <p>Адреса бібліотеки: 04053, м. Київ, вул. Олександра Кониського, 83-85</p>
           <p>е-mail: lubibl@ukr.net, тел.: (+38-044) 486-01-46</p>
-          <h3>Вебресурси:</h3>
-          <a href="https://www.facebook.com/LUkLibrary"> Facebook </a>
-          <a href="https://lukl.kyiv.ua/"> Web page </a>
-          <a href="https://www.tiktok.com/@lesyalibrary?_t=8oqALFN1u1W&_r=1"> Tiktok </a>
+          <h3>Вебресурси:</h3>   
+          <a href="https://www.facebook.com/LUkLibrary">Facebook</a>
+          <a href="https://lukl.kyiv.ua/">    Web page    </a>
+          <a href="https://www.tiktok.com/@lesyalibrary?_t=8oqALFN1u1W&_r=1">    Tiktok    </a>
         </div>
         <img className="box box2" src={map} alt=""/>
       </ul>
@@ -59,19 +63,11 @@ function App() {
       </ul>
 
       <ul className="container"  style={{backgroundColor:'DarkSeaGreen', color:'black'}}>
-        <h2>Нові запити</h2>
+        <h2>Книжкові запити</h2>
       </ul>
       
       <ul className="container">
-        {NewBooks.map((data, index) => { return (<BookCard key={index} data={data} />); })}
-      </ul>
-      
-      <ul className="container"  style={{backgroundColor:'darkgrey', color:'white'}}>
-        <h2>Передано бібліотеці</h2>
-      </ul>
-      
-      <ul className="container">
-        {PurchasedBooks.map((data, index) => { return (<BookCard key={index} data={data} />); })}
+        {sortedNewBooks.map((data, index) => { return (<BookCard key={index} data={data} />); })}
       </ul>
     </div>
   );
