@@ -1,5 +1,50 @@
 [
   {
+    "title": "Хімія смерті",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/2/5/258_1_2.jpg",
+    "price": "UAH 280"
+  },
+  {
+    "title": "Записано на кістках",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/1/0/1004_1_1.jpg",
+    "price": "UAH 280"
+  },
+  {
+    "title": "Небажана",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/n/e/nebajana-1440x960.jpg",
+    "price": "UAH 258"
+  },
+  {
+    "title": "Список для читання",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/i/m/img845_145.jpg",
+    "price": "UAH 495"
+  },
+  {
+    "title": "П’ятдесят слів для дощу",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/5/0/50wordsedges_cr.jpg",
+    "price": "UAH 536"
+  },
+  {
+    "title": "Сутінки світу",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/t/w/twilight_world_2500-1.1800x1200w.jpg",
+    "price": "UAH 279"
+  },
+  {
+    "title": "Шлях ріки",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/s/h/shliakh-riky-2500.1800x1200w.jpg",
+    "price": "UAH 319"
+  },
+  {
+    "title": "Перетворення націй",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/i/m/img904_1_10.jpg",
+    "price": "UAH 394"
+  },
+  {
+    "title": "Натурниця",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/1/_/1_1819_1.jpg",
+    "price": "UAH 220"
+  },
+  {
     "title": "Шах і мат",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/1/e/1e49fa1e_shahmat_obl3_cr.jpg",
     "price": "R"
