@@ -1,5 +1,20 @@
 [
   {
+    "title": "Страшне добро",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/8/8/884_1_1.jpg",
+    "price": "UAH 359"
+  },
+  {
+    "title": "Уроки хімії",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/6/1/61091_121183_1.jpg",
+    "price": "UAH 350"
+  },
+  {
+    "title": "Маленький друг",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/i/m/img818_64.jpg",
+    "price": "UAH 450"
+  },
+  {
     "title": "Україна - не росія",
     "image_url": "https://adef.com.ua/image/cache/catalog/books/leonid-kuchma/ukrayina-ne-rosiya/ukrayina-ne-rosiya-v2-1-auto_width_500.jpg",
     "price": "UAH 1000"
@@ -12,7 +27,7 @@
   {
     "title": "Три товариші",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/1/4/141_1_62.jpg",
-    "price": "UAH 280"
+    "price": "R"
   },
   {
     "title": "Чорнильно-чорне серце",
@@ -42,7 +57,7 @@
   {
     "title": "Якби міста вміли говорити",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/0/c/0c7725f5_yakby-mista-vmily-hovoryty_obl3.png",
-    "price": "UAH 324"
+    "price": "R"
   },
   {
     "title": "Відкритий перелом голосу",
@@ -157,7 +172,7 @@
   {
     "title": "В очікуванні першого променя сонця",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/d/a/dall_cover_ua_4.jpg",
-    "price": "R"
+    "price": ""
     },
     {
       "title": "Катананхе",
