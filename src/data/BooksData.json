@@ -1,8 +1,13 @@
 [
   {
+    "title": "Кривавий меридіан",
+    "image_url": "https://book-ye.com.ua/upload/iblock/dea/8115e216_2d40_11ee_8187_00505684ea69_88fd9c64_2d43_11ee_8187_00505684ea69.jpg",
+    "price": "UAH 400"
+  },
+  {
     "title": "Пачінко",
     "image_url": "https://bookclub.ua/images/db/goods/62250_124178.jpg",
-    "price": "UAH 500"
+    "price": "R"
   },
   {
     "title": "Дівчина, яку ми вбили",
@@ -97,12 +102,12 @@
   {
     "title": "Хімія смерті",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/2/5/258_1_2.jpg",
-    "price": "UAH 280"
+    "price": "R"
   },
   {
     "title": "Записано на кістках",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/1/0/1004_1_1.jpg",
-    "price": "UAH 280"
+    "price": "R"
   },
   {
     "title": "Небажана",
