@@ -1,18 +1,33 @@
 [
   {
-    "title": "Крізь дзеркала. Книга 2",
-    "image_url": "https://static.yakaboo.ua/media/catalog/product/3/b/3b1c2097cd9c89ed027a92a3c135a4bb.jpg",
-    "price": "UAH 370"
+    "title": "Світло далекої зірки",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/5/6/565.png",
+    "price": "UAH 400"
   },
   {
-    "title": "Часу немає",
-    "image_url": "https://static.yakaboo.ua/media/catalog/product/3/0/306_1_4.jpg",
-    "price": "UAH 480"
+    "title": "Парадокс процвітання",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/7/0/701_1_5.jpg",
+    "price": "UAH 350"
   },
   {
-    "title": "Піяння півнів, плач псів",
-    "image_url": "https://static.yakaboo.ua/media/catalog/product/_/_/______cr_29.jpg",
-    "price": ""
+    "title": "Толіки",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/t/o/toliky_2500.1800x1200w.jpg",
+    "price": "UAH 279"
+  },
+  {
+    "title": "Як розібратися у своїх емоціях",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/i/m/img_85114.jpg",
+    "price": "UAH 360"
+  },
+  {
+    "title": " Жінки, які кохають до нестями",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/3/6/36_1_100.jpg",
+    "price": "UAH 320"
+  },
+  {
+    "title": "Відкритий перелом голосу",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/1/_/1_1803.jpg",
+    "price": "UAH 333"
   },
   {
     "title": "Найпотаємніший спогад людський",
@@ -20,14 +35,39 @@
     "price": "UAH 430"
   },
   {
-    "title": "Війна з тильного боку",
-    "image_url": "https://static.yakaboo.ua/media/catalog/product/i/m/img928_26.jpg",
-    "price": "UAH 280"
-  },
-  {
     "title": "Кривавий меридіан",
     "image_url": "https://nashformat.ua/files/products/kryvavyj-merydian-abo-vechirnya-zagrava-na-zahodi-942175.800x800.jpeg?240926062002",
     "price": "UAH 400"
+  },
+  {
+    "title": "Стрімка могила",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/8/1/811539_1_original.jpg",
+    "price": "UAH 950"
+  },
+  {
+    "title": "Крізь дзеркала. Книга 2",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/3/b/3b1c2097cd9c89ed027a92a3c135a4bb.jpg",
+    "price": "R"
+  },
+  {
+    "title": "Страшне добро",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/8/8/884_1_1.jpg",
+    "price": "R"
+  },
+  {
+    "title": "Часу немає",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/3/0/306_1_4.jpg",
+    "price": "R"
+  },
+  {
+    "title": "Піяння півнів, плач псів",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/_/_/______cr_29.jpg",
+    "price": ""
+  },
+  {
+    "title": "Війна з тильного боку",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/i/m/img928_26.jpg",
+    "price": "R"
   },
   {
     "title": "Пачінко",
@@ -37,7 +77,7 @@
   {
     "title": "Дівчина, яку ми вбили",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/i/m/img920_63.jpg",
-    "price": "UAH 340"
+    "price": "R"
   },
   {
     "title": "Вбивайте усвідомлено",
@@ -47,22 +87,17 @@
   {
     "title": "Виживуть п’ятеро",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/6/a/6a2b6e81f0c5251b.jpg",
-    "price": "UAH 480"
+    "price": "R"
   },
   {
     "title": " Ніколи не йди на компроміс",
     "image_url": "https://nashformat.ua/files/products/neversplitthedifference.800x800.jpg?240925051302",
-    "price": "UAH 360"
+    "price": "R"
   },
   {
     "title": "Та дівчина",
     "image_url": "https://img.imageboss.me/vsl/width/1024/format:webp/2024-08-19/1871.1800x1200w.jpg",
-    "price": "UAH 501"
-  },
-  {
-    "title": "Страшне добро",
-    "image_url": "https://static.yakaboo.ua/media/catalog/product/8/8/884_1_1.jpg",
-    "price": "UAH 359"
+    "price": "R"
   },
   {
     "title": "Уроки хімії",
@@ -90,11 +125,6 @@
     "price": ""
   },
   {
-    "title": "Стрімка могила",
-    "image_url": "https://static.yakaboo.ua/media/catalog/product/8/1/811539_1_original.jpg",
-    "price": "UAH 950"
-  },
-  {
     "title": "Пісня відкритого шляху",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/i/m/img616_30.jpg",
     "price": ""
@@ -113,11 +143,6 @@
     "title": "Якби міста вміли говорити",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/0/c/0c7725f5_yakby-mista-vmily-hovoryty_obl3.png",
     "price": ""
-  },
-  {
-    "title": "Відкритий перелом голосу",
-    "image_url": "https://static.yakaboo.ua/media/catalog/product/1/_/1_1803.jpg",
-    "price": "UAH 333"
   },
   {
     "title": "Спекотне літо Нормандії, ...",
