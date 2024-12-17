@@ -1,13 +1,74 @@
 [
+  
+ {
+    "title": "Усе, що тільки між нами",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/1/_/1_cr_431.jpg",
+    "price": "R"
+ },
+ {
+    "title": " О, милий доме",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/1/_/1_1708.jpg",
+    "price": "R"
+  },
+  {
+    "title": "Пам’яті",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/_/_/_..._mockup_1.png",
+    "price": "R"
+  },
+  {
+    "title": " Історія про Сан-Мікеле",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/i/m/img060_1_18.jpg",
+    "price": "R"
+  },
+  {
+    "title": "Сім місяців Маалі Алмейди",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/2/9/29ee50aa_7misyaciv_obl3_cr.jpg",
+    "price": "R"
+  },
+  {
+    "title": "Часосховище",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/2/0/2009_1_1.jpg",
+    "price": "R"
+  },
+  {
+    "title": "Дейзі Гейтс",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/i/m/image00175_5.jpg",
+    "price": "R"
+  },
+  {
+    "title": "Ти",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/1/9/1913_2_1.jpg",
+    "price": "R"
+  },
+  {
+    "title": "Тисяча осеней Якоба Де Зутаі",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/t/h/thumbnail__1__1.jpg",
+    "price": "R"
+  },
   {
     "title": "Кінгзбридж. Стовпи землі",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/p/i/pillarsofearthsite1-1500x2250_cr.jpg",
-    "price": "UAH 750"
+    "price": "R"
+  },
+  {
+    "title": " З непокритою головою",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/3/7/377437_82287535.jpg",
+    "price": "R"
+  },
+  {
+    "title": "Життя спочатку",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/i/m/img437_1_19.jpg",
+    "price": "R"
+  },
+  {
+    "title": "Кінгзбридж. Стовпи землі",
+    "image_url": "https://static.yakaboo.ua/media/catalog/product/p/i/pillarsofearthsite1-1500x2250_cr.jpg",
+    "price": "R"
   },
   {
     "title": "Так програють війну часів",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/1/1/1146_1_2.jpg",
-    "price": "UAH 300"
+    "price": "R"
   },
   {
     "title": "Паперовий палац",
@@ -27,17 +88,12 @@
   {
     "title": "Скляний замок",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/7/2/723e528e1fb4e704cf809d3bf06e1eb2.jpg",
-    "price": "UAH 280"
+    "price": "R"
   },
   {
     "title": "Взуттєва фабрика життя",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/2/4/24_1_1_4.jpg",
-    "price": "UAH 380"
-  },
-  {
-    "title": "О, милий доме…",
-    "image_url": "https://static.yakaboo.ua/media/catalog/product/1/_/1_1708.jpg",
-    "price": "UAH 280"
+    "price": "R"
   },
   {
     "title": "Світло далекої зірки",
@@ -62,27 +118,17 @@
   {
     "title": "Як розібратися у своїх емоціях",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/i/m/img_85114.jpg",
-    "price": "UAH 360"
+    "price": "R"
   },
   {
     "title": " Жінки, які кохають до нестями",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/3/6/36_1_100.jpg",
-    "price": "UAH 320"
+    "price": "R"
   },
   {
     "title": "Відкритий перелом голосу",
     "image_url": "https://static.yakaboo.ua/media/catalog/product/1/_/1_1803.jpg",
-    "price": "UAH 333"
-  },
-  {
-    "title": "Найпотаємніший спогад людський",
-    "image_url": "https://static.yakaboo.ua/media/catalog/product/f/i/file_6_27.jpg",
-    "price": "UAH 430"
-  },
-  {
-    "title": "Кривавий меридіан",
-    "image_url": "https://nashformat.ua/files/products/kryvavyj-merydian-abo-vechirnya-zagrava-na-zahodi-942175.800x800.jpeg?240926062002",
-    "price": "UAH 400"
+    "price": "R"
   },
   {
     "title": "Стрімка могила",
